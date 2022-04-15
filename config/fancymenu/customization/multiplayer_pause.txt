@@ -1,0 +1,143 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_433
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = BETTER/escape_menu.wav
+  loop = false
+  action = addaudio
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=398246%
+  orientation = top-left
+  x = 218
+  action = movebutton
+  y = 162
+}
+
+customization {
+  identifier = %id=398294%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=398342%
+  orientation = top-left
+  x = 321
+  action = movebutton
+  y = 210
+}
+
+customization {
+  identifier = %id=398342%
+  width = 101
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=504294%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=504342%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=398270%
+  orientation = top-left
+  x = 218
+  action = movebutton
+  y = 186
+}
+
+customization {
+  identifier = %id=398270%
+  width = 99
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=398318%
+  orientation = top-left
+  x = 218
+  action = movebutton
+  y = 210
+}
+
+customization {
+  identifier = %id=398318%
+  width = 99
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=398366%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=398366%
+  orientation = top-left
+  x = 218
+  action = movebutton
+  y = 258
+}
+
+customization {
+  identifier = %id=504270%
+  orientation = top-left
+  x = 321
+  action = movebutton
+  y = 186
+}
+
+customization {
+  identifier = %id=504270%
+  width = 101
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  name = menu_logo
+  x = 270
+  width = 100
+  actionid = 62cac612-70e2-48a9-96b2-97d57181ecf81649012364886
+  action = addanimation
+  y = 58
+  height = 100
+}
+
+customization {
+  orientation = top-left
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = quitgame
+  x = 218
+  width = 204
+  actionid = 80cc73d8-79cd-4293-9fef-92ffe418feb61649013260368
+  action = addbutton
+  y = 234
+  label = Rage Quit
+  value = net.minecraft.class_442
+  height = 20
+}
+

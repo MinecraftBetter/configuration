@@ -1,0 +1,65 @@
+type = hud
+
+customization-meta {
+  fadeout = false
+  randomgroup = 1
+  keepaspectratio = false
+  autoscale_baseheight = 1017
+  renderorder = foreground
+  autoscale_basewidth = 1920
+  randommode = false
+  randomonlyfirsttime = false
+  backgroundcolor = #1f2226
+}
+
+customization {
+  visible = false
+  x = -121
+  action = editlogo
+  y = 2
+}
+
+customization {
+  visible = false
+  x = -26
+  action = editprogressbar
+  y = -22
+}
+
+customization {
+  path = BETTER/minecraft_better_logo_512x.png
+  orientation = mid-centered
+  x = 0
+  width = 100
+  action = addtexture
+  actionid = b833258b-fc92-43f0-a622-2983b13bc4931648767866209
+  y = 0
+  height = 100
+}
+
+customization {
+  orientation = bottom-left
+  x = 0
+  width = %guiwidth%
+  actionid = cbf4245f-e6c7-4cc6-b12a-56b5212321231648767902966
+  y = 0
+  action = addcustomprogressbar
+  height = 9
+  direction = right
+  barcolor = #fc212a
+  backgroundcolor = #ffffff80
+}
+
+customization {
+  orientation = bottom-centered
+  shadow = false
+  x = 0
+  textcolor = #ffffff
+  action = addtext
+  actionid = 81944ae6-91e2-43c9-8392-902bcfc2be8c1648770721118
+  y = -1
+  scale = 1.0
+  alignment = left
+  value = Minecraft Better
+}
+

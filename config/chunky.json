@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "language": "en",
+  "continueOnRestart": false,
+  "tasks": {
+    "minecraft:overworld": {
+      "cancelled": false,
+      "radius": 10000.0,
+      "centerX": 38921.76148368436,
+      "centerZ": 20139.97940868455,
+      "iterator": "concentric",
+      "shape": "square",
+      "count": 454580,
+      "time": 16105272
+    }
+  }
+}

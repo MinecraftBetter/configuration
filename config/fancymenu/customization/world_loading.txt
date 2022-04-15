@@ -1,0 +1,67 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_3928
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  baseheight = 1017
+  action = autoscale
+  basewidth = 1920
+}
+
+customization {
+  path = BETTER/menu_musics/1.wav
+  loop = true
+  action = addaudio
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = mid-centered
+  name = loading_world
+  x = -50
+  width = 100
+  actionid = f8dbe5de-0870-42b4-94c9-a6c0c82cf4041648771535282
+  action = addanimation
+  y = -50
+  height = 100
+}
+
+customization {
+  orientation = bottom-centered
+  shadow = false
+  x = -53
+  actionid = 202e776c-5f4c-40f1-b39a-e77df18efe931648771590891
+  action = addtext
+  y = -120
+  scale = 1.0
+  alignment = left
+  value = Connexion en cours...
+}
+
+customization {
+  orientation = top-left
+  onlydisplayin = multiplayer
+  restartbackgroundanimations = true
+  buttonaction = opengui
+  label = Annuler
+  loopbackgroundanimations = true
+  x = 270
+  width = 100
+  actionid = 095cc013-a469-44f1-a41f-0149ba270df01649007113745
+  action = addbutton
+  y = 275
+  value = net.minecraft.class_442
+  vr:showif:multiplayer = true
+  height = 20
+}
+

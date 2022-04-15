@@ -1,0 +1,179 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_442
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = mcb
+  action = setbackgroundslideshow
+}
+
+customization {
+  baseheight = 1017
+  action = autoscale
+  basewidth = 1920
+}
+
+customization {
+  path = BETTER/menu_musics/2.wav
+  loop = false
+  action = addaudio
+}
+
+customization {
+  keepaspectratio = true
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400310%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400310%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -10
+}
+
+customization {
+  identifier = %id=400310%
+  action = setbuttonlabel
+  value = Minecraft Better
+}
+
+customization {
+  identifier = %id=400310%
+  action = sethoverlabel
+  label = LETTTTS GOOOO
+}
+
+customization {
+  identifier = %id=400358%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 15
+}
+
+customization {
+  identifier = %id=400358%
+  action = setbuttonlabel
+  value = Mods...
+}
+
+customization {
+  identifier = %id=604394%
+  orientation = mid-left
+  x = 597
+  action = movebutton
+  y = 149
+}
+
+customization {
+  identifier = %id=604394%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400286%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400334%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376334%
+  orientation = mid-left
+  x = 619
+  action = movebutton
+  y = 149
+}
+
+customization {
+  identifier = %id=400394%
+  orientation = mid-left
+  x = 220
+  action = movebutton
+  y = 40
+}
+
+customization {
+  identifier = %id=502394%
+  orientation = mid-right
+  x = -318
+  action = movebutton
+  y = 40
+}
+
+customization {
+  identifier = %id=502394%
+  action = setbuttonlabel
+  value = Rage Quit
+}
+
+customization {
+  identifier = %id=376394%
+  orientation = mid-left
+  x = 575
+  action = movebutton
+  y = 149
+}
+
+customization {
+  identifier = %id=376394%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  showname = true
+  orientation = mid-right
+  crouching = false
+  x = -180
+  slim = false
+  actionid = f35c9da8-7aba-43b0-8b43-a3bee8c311d21648761345084
+  action = addentity
+  y = 54
+  scale = 30
+  playername = %playername%
+  parrot = false
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = joinserver
+  x = -100
+  width = 200
+  actionid = 0b175cfd-ce4c-4ba4-a010-cc76d5a6cb2d1648761575881
+  action = addbutton
+  y = -10
+  label = Minecraft Better (%serverplayercount:minecraftbetter.fr%)
+  value = minecraftbetter.fr
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  name = menu_logo
+  x = 270
+  width = 100
+  actionid = 4af06dd9-7e4d-4412-aceb-839482b0d5961649006221439
+  action = addanimation
+  y = 49
+  height = 100
+}
+

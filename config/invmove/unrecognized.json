@@ -1,0 +1,30 @@
+{
+  "allowMovement": {
+    "net.minecraft.class_434": true,
+    "net.minecraft.class_442": true,
+    "net.minecraft.class_433": true,
+    "net.minecraft.class_5375": true,
+    "org.anti_ad.mc.ipnext.gui.GUIDEEditorScreen": true,
+    "net.minecraft.class_5522": true,
+    "net.coderbot.iris.gui.screen.ShaderPackScreen": true,
+    "su.plo.voice.client.gui.VoiceNotAvailableScreen": true,
+    "net.minecraft.class_407": true,
+    "me.jellysquid.mods.sodium.client.gui.SodiumOptionsGUI": true,
+    "su.plo.voice.client.gui.VoiceSettingsScreen": true,
+    "com.terraformersmc.modmenu.gui.ModsScreen": true,
+    "me.shedaniel.clothconfig2.gui.ClothConfigScreen": true,
+    "dev.tr7zw.skinlayers.SkinLayersModBase$1": true,
+    "wraith.waystones.screen.WaystoneBlockScreen": true,
+    "de.keksuccino.fancymenu.menu.fancy.helper.layoutcreator.PreloadedLayoutEditorScreen": true,
+    "de.keksuccino.fancymenu.menu.fancy.helper.ui.FMConfigScreen": true,
+    "org.anti_ad.mc.ipnext.gui.ConfigScreen": true,
+    "com.simibubi.create.foundation.ponder.ui.PonderUI": true,
+    "com.simibubi.create.content.curiosities.toolbox.RadialToolboxMenu": true
+  },
+  "hideBackground": {
+    "net.minecraft.class_442": true,
+    "net.minecraft.class_5522": true,
+    "wraith.waystones.screen.WaystoneBlockScreen": true,
+    "com.simibubi.create.content.curiosities.toolbox.RadialToolboxMenu": true
+  }
+}

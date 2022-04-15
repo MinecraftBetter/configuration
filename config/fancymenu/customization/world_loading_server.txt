@@ -1,0 +1,44 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_424
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = BETTER/menu_musics/1.wav
+  loop = true
+  action = addaudio
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = mid-centered
+  name = loading_world
+  x = -50
+  width = 100
+  actionid = 9c3e2d81-dd4e-4f7e-a030-ef7b8a85b92f1648771819242
+  action = addanimation
+  y = -50
+  height = 100
+}
+
+customization {
+  orientation = bottom-centered
+  shadow = false
+  x = -53
+  actionid = 0be26392-69dc-427b-bd6f-956f181c0c1e1648771842290
+  action = addtext
+  y = -120
+  scale = 1.0
+  alignment = left
+  value = Connexion en cours...
+}
+
