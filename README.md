@@ -1,5 +1,6 @@
 # How 'configuration' repository works :
   Download and place directly the folder into .minecraft | Warning, this do not work with the mods folder.
+  Everytime the launcher is opened, it check this repository hash and compare to it's local hash, if it is different, the launcher will update mods. It should re-download everything !
 
 
 ## mods folder :
