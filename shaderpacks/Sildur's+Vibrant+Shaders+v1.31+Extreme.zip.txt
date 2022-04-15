@@ -1,0 +1,12 @@
+#This file stores the shaderpack configuration for the shaderpack Sildur's+Vibrant+Shaders+v1.31+Extreme.zip
+#Wed Dec 15 16:18:58 CET 2021
+bloom_strength=0.5
+shadowDistance=400.0
+Dof_Distance_View=512
+shadowMapResolution=4096
+raytracedShadows=true
+morningFog=true
+DoF_Strength=10
+polishedRefl=true
+Adaptive_sharpening=true
+Distance_Blur=true
