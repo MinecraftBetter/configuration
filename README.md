@@ -16,3 +16,6 @@
   Resources for fancymenu, such as animations, logos, musics.
   The launcher should download 'config' folder and overwrite existing 'config' folder located at ..minecraft/resources
   Overwrite is needed to update.
+
+## shaderpacks folder :
+  Litteraly shaders
