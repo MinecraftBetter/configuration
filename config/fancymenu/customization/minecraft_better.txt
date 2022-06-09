@@ -60,7 +60,7 @@ customization {
   orientation = mid-centered
   x = -100
   action = movebutton
-  y = 15
+  y = 40
 }
 
 customization {
@@ -71,16 +71,22 @@ customization {
 
 customization {
   identifier = %id=604394%
-  orientation = mid-left
-  x = 597
+  orientation = bottom-right
+  x = -21
   action = movebutton
-  y = 149
+  y = -21
 }
 
 customization {
   identifier = %id=604394%
   action = setbuttonlabel
   value = 
+}
+
+customization {
+  identifier = %id=604394%
+  action = setbuttondescription
+  description = Accessibilitées
 }
 
 customization {
@@ -95,10 +101,16 @@ customization {
 
 customization {
   identifier = %id=376334%
-  orientation = mid-left
-  x = 619
+  orientation = bottom-right
+  x = -65
   action = movebutton
-  y = 149
+  y = -21
+}
+
+customization {
+  identifier = %id=376334%
+  action = setbuttondescription
+  description = Options du mod 'Create'
 }
 
 customization {
@@ -106,7 +118,7 @@ customization {
   orientation = mid-left
   x = 220
   action = movebutton
-  y = 40
+  y = 65
 }
 
 customization {
@@ -114,7 +126,7 @@ customization {
   orientation = mid-right
   x = -318
   action = movebutton
-  y = 40
+  y = 65
 }
 
 customization {
@@ -125,16 +137,22 @@ customization {
 
 customization {
   identifier = %id=376394%
-  orientation = mid-left
-  x = 575
+  orientation = bottom-right
+  x = -43
   action = movebutton
-  y = 149
+  y = -21
 }
 
 customization {
   identifier = %id=376394%
   action = setbuttonlabel
   value = 
+}
+
+customization {
+  identifier = %id=376394%
+  action = setbuttondescription
+  description = Langues
 }
 
 customization {
@@ -145,7 +163,7 @@ customization {
   slim = false
   actionid = f35c9da8-7aba-43b0-8b43-a3bee8c311d21648761345084
   action = addentity
-  y = 54
+  y = 72
   scale = 30
   playername = %playername%
   parrot = false
@@ -161,8 +179,8 @@ customization {
   actionid = 0b175cfd-ce4c-4ba4-a010-cc76d5a6cb2d1648761575881
   action = addbutton
   y = -10
-  label = Minecraft Better (%serverplayercount:minecraftbetter.fr%)
-  value = minecraftbetter.fr
+  label = §cMinecraft §fBetter (%serverplayercount:minecraftbetter.com%)
+  value = minecraftbetter.com
   height = 20
 }
 
@@ -175,5 +193,75 @@ customization {
   action = addanimation
   y = 49
   height = 100
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = joinserver
+  x = -100
+  width = 200
+  actionid = d42ee633-96b7-4bae-a314-32bf3a86e49a1650058248415
+  action = addbutton
+  y = 15
+  label = §cCreatif §fBetter (%serverplayercount:minecraftbetter.com:25564%)
+  value = minecraftbetter.com:25564
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  shadow = false
+  x = 140
+  actionid = 10432c92-6da6-408f-a565-c509ba075ee31650061011753
+  action = addtext
+  y = -1
+  scale = 1.0
+  alignment = centered
+  value = %playername%
+}
+
+customization {
+  orientation = bottom-left
+  restartbackgroundanimations = true
+  vr:showif:buttonhovered = true
+  delayappearanceseconds = 1.0
+  buttonaction = openlink
+  backgroundhovered = BETTER\transparent.png
+  description = Moyai
+  label = 
+  vr:value:buttonhovered = 64654
+  loopbackgroundanimations = true
+  fadein = true
+  fadeinspeed = 360.0
+  x = 0
+  width = 5
+  actionid = 16b19b2d-d291-4aea-8bdf-854eda516b3e1650061103930
+  action = addbutton
+  y = -5
+  delayappearance = true
+  backgroundnormal = BETTER\transparent.png
+  value = https://youtube.com/shorts/ExHIeR_drZY?feature=share
+  delayappearanceeverytime = true
+  height = 5
+}
+
+customization {
+  orientation = top-left
+  restartbackgroundanimations = true
+  buttonaction = runcmd
+  backgroundhovered = BETTER\transparent.png
+  description = Pro-tip : Don't click
+  label = Easter egg
+  loopbackgroundanimations = true
+  x = 270
+  width = 100
+  actionid = 670f5578-c10a-41f3-b5fa-caca96cf3b461650061826929
+  action = addbutton
+  y = 49
+  backgroundnormal = BETTER\transparent.png
+  value = 
+  height = 101
 }
 
