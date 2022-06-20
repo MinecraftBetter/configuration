@@ -130,14 +130,14 @@ customization {
   orientation = top-left
   loopbackgroundanimations = true
   restartbackgroundanimations = true
-  buttonaction = quitgame
+  buttonaction = runscript
   x = 218
   width = 204
   actionid = 80cc73d8-79cd-4293-9fef-92ffe418feb61649013260368
   action = addbutton
   y = 234
   label = Rage Quit
-  value = net.minecraft.class_442
+  value = script
   height = 20
 }
 

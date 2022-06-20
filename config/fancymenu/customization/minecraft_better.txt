@@ -14,6 +14,11 @@ customization {
 }
 
 customization {
+  action = setscale
+  scale = 3
+}
+
+customization {
   baseheight = 1017
   action = autoscale
   basewidth = 1920
@@ -179,8 +184,8 @@ customization {
   actionid = 0b175cfd-ce4c-4ba4-a010-cc76d5a6cb2d1648761575881
   action = addbutton
   y = -10
-  label = §cMinecraft §fBetter (%serverplayercount:minecraftbetter.com%)
-  value = minecraftbetter.com
+  label = §cMinecraft §fBetter (%serverplayercount:minecraftbetter.com:25565%)
+  value = minecraftbetter.com:25565
   height = 20
 }
 
@@ -250,10 +255,10 @@ customization {
 customization {
   orientation = top-left
   restartbackgroundanimations = true
-  buttonaction = runcmd
+  buttonaction = openlink
   backgroundhovered = BETTER\transparent.png
   description = Pro-tip : Don't click
-  label = Easter egg
+  label = 
   loopbackgroundanimations = true
   x = 270
   width = 100
@@ -261,7 +266,7 @@ customization {
   action = addbutton
   y = 49
   backgroundnormal = BETTER\transparent.png
-  value = 
+  value = https://youtu.be/dQw4w9WgXcQ
   height = 101
 }
 
