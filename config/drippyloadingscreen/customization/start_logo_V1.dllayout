@@ -8,6 +8,7 @@ customization-meta {
   renderorder = foreground
   autoscale_basewidth = 1920
   randommode = false
+  scale = 3
   randomonlyfirsttime = false
   backgroundcolor = #1f2226
 }
