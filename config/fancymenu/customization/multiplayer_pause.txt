@@ -116,6 +116,20 @@ customization {
 }
 
 customization {
+  identifier = %id=374318%
+  orientation = bottom-right
+  x = -24
+  action = movebutton
+  y = -24
+}
+
+customization {
+  identifier = %id=374318%
+  action = sethoverlabel
+  label = Paramètres du mod 'Create'
+}
+
+customization {
   orientation = top-left
   name = menu_logo
   x = 270
