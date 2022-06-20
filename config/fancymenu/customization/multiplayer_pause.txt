@@ -126,7 +126,7 @@ customization {
 customization {
   identifier = %id=374318%
   action = sethoverlabel
-  label = Paramètres du mod 'Create'
+  label = Options du mod 'Create'
 }
 
 customization {
