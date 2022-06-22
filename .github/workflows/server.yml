@@ -9,11 +9,11 @@ on:
   workflow_dispatch:
 
 jobs:
-  update:
+  server:
     runs-on: ubuntu-latest
-
+    name: Server update
     steps:
-      - uses: actions/checkout@v3
+      #- uses: actions/checkout@v3
       - name: Request files update
         run: |
           curl https://api.minecraftbetter.com/minecraftbetter/launcher/gameassets?update
