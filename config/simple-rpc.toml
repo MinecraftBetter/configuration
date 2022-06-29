@@ -1,0 +1,147 @@
+[general]
+	#The Client ID of the Discord App to use. Replace this with your client id from the discord dashboard to change the name of the app
+	clientID = 991660264510464051
+	#Enable/Disable the mod
+	enabled = true
+	#Enable/Disable debugging mode. WARNING: MAY CAUSE LOG SPAM!
+	debugging = false
+	#Enable/Disable the in game config screen
+	configScreen = false
+	#Display the Icon and Pack Name in place of LargeImage from compatible launchers. DOES NOT WORK WITH CUSTOM APPS! ONLY THE DEFAULT ONE!
+	launcherIntegration = false
+	#Internal Version Number. NO TOUCHY!
+	version = 13
+
+[init]
+	#Enable/Disable the Game Loading Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Demarrage de Minecraft"
+	#The second line of text under the app name
+	state = "Chargement du jeu..."
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = "logo"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Minecraft %mcver%"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = "loading"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installés"
+
+	[[init.buttons]]
+		label = "Nous rejoindre"
+		url = "https://minecraftbetter.com"
+
+[main_menu]
+	#Enable/Disable the Main Menu Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Dans le menu principal"
+	#The second line of text under the app name
+	state = ""
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = "logo"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Minecraft %mcver%"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = "home"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = ""
+
+	[[main_menu.buttons]]
+		label = "Nous rejoindre"
+		url = "https://minecraftbetter.com"
+
+[server_list]
+	#Enable/Disable the Server List Event
+	enabled = false
+
+[realms_list]
+	#Enable/Disable the Realms Screen Event
+	enabled = false
+
+[join_game]
+	#Enable/Disable the Join Game Event
+	enabled = true
+	#The first line of text under the app name
+	description = "En cours de connexion au server"
+	#The second line of text under the app name
+	state = ""
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = "logo"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Minecraft %mcver%"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = "joining"
+	#The text that gets displayed when the small image is hovered
+	smallImageText = ""
+
+	[[join_game.buttons]]
+		label = "Faire de même"
+		url = "https://minecraftbetter.com"
+
+[single_player]
+	#Enable/Disable the Single Player Event
+	enabled = false
+
+[multi_player]
+	#Enable/Disable the Multi Player Event
+	enabled = true
+	#The first line of text under the app name
+	description = "Joue sur le serveur"
+	#The second line of text under the app name
+	state = "%players% joueur(s) en ligne"
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = "logo"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Minecraft %mcver%"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ""
+	#The text that gets displayed when the small image is hovered
+	smallImageText = "%mods% mods installés"
+
+	[[multi_player.buttons]]
+		label = "Le rejoindre"
+		url = "https://minecraftbetter.com"
+
+[realms]
+	#Enable/Disable the Realms Game Event
+	enabled = false
+
+[generic]
+	#The first line of text under the app name
+	description = "Joue à Minecraft"
+	#The second line of text under the app name
+	state = ""
+	#The Asset ID/URL of the image to display as the large image
+	largeImageKey = "logo"
+	#The text that gets displayed when the large image is hovered
+	largeImageText = "Minecraft %mcver%"
+	#The Asset ID/URL of the image to display as the small image
+	smallImageKey = ""
+	#The text that gets displayed when the small image is hovered
+	smallImageText = ""
+
+	[[generic.buttons]]
+		label = "Nous rejoindre"
+		url = "https://minecraftbetter.com"
+
+[dimension_overrides]
+	enabled = true
+
+	[[dimension_overrides.dimensions]]
+		name = "overworld"
+		description = "Dans l'Overworld"
+		smallImageKey = "overworld"
+
+	[[dimension_overrides.dimensions]]
+		name = "the_nether"
+		description = "Dans le Nether"
+		smallImageKey = "nether"
+
+	[[dimension_overrides.dimensions]]
+		name = "the_end"
+		description = "Dans l'End"
+		smallImageKey = "end"
+
+
