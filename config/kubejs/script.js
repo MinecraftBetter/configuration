@@ -5,8 +5,8 @@ onEvent('player.logged_in', event => {
     // Add the stage
     event.player.stages.add('starting_items')
     // Give some items to player
-    event.player.give('minecraft:stone_sword')
-    event.player.give(Item.of('minecraft:stone_pickaxe', "{Damage: 10}"))
-    event.player.give('30x minecraft:apple')
+    event.player.give('naturecompass:naturecompass')
+    event.player.give('numismastic-overhaul:gold_coin')
+    event.player.give('64x minecraft:cooked_beef')
   }
 })
