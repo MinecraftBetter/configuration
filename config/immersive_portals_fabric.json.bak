@@ -19,7 +19,7 @@
   "enableAlternateDimensions": false,
   "reducedPortalRendering": false,
   "visibilityPrediction": true,
-  "netherPortalOverlay": false,
+  "netherPortalOverlay": true,
   "scaleLimit": 30,
   "easeCreativePermission": true,
   "easeCommandStickPermission": false,
