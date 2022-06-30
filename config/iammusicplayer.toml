@@ -1,0 +1,11 @@
+errorLog = false
+volume = 1.0
+maxPlayCont = 80
+spatial = true
+subtitleType = "OFF"
+youtubeSubtitleLanguage = "AUTO"
+relayServerURL = "https://raw.githubusercontent.com/TeamFelnull/IamMusicPlayer/master/relay_server.json"
+maxWaitTime = 10000
+retryTime = 10
+dropItemRing = true
+patchouliIntegration = true
